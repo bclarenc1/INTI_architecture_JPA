@@ -35,7 +35,7 @@ public class Personne {
 	@OneToOne
 	private Connexion connexion;
 	@ManyToMany
-	private List<Club> clubs = new ArrayList<>();
+	private List<Club> clubs = new ArrayList<Club>();
 	
 	public int getId() {
 		return id;
