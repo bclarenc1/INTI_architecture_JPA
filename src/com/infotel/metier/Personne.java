@@ -15,7 +15,7 @@ import javax.persistence.InheritanceType;
 import javax.persistence.ManyToMany;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToOne;
-
+// titoti
 @Entity
 @Inheritance(strategy=InheritanceType.SINGLE_TABLE)  // type d'héritage
 @DiscriminatorColumn(name="TYPE_PERS")		         // nom de la colonne de discrimination
